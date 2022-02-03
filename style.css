@@ -549,6 +549,26 @@ section .title::after{
   color: crimson;
   background: none;
 }
+
+.links{
+    display: inline-block;
+}
+
+.lin{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.contact .contact-content .links i{
+      font-size: 35px;
+}
+
+.fab fa-github-square{
+    height: 50px;
+}
 /* footer section styling */
 footer{
     background: #111;
@@ -563,6 +583,8 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+
+
 
 
 /* responsive media query start */
